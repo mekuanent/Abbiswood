@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ABBISWOOD</string>
+    <string name="title_activity_main">ABBISWOOD</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab1">Mati Multiplex</string>
+    <string name="tab2">Ampere</string>
+    <string name="tab3">Sebastopol</string>
+    <string name="tab4">Yoftahe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

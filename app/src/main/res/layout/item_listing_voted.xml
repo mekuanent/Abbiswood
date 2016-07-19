@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/cardview_light_background"
+    android:layout_height="130dp"
+    android:padding="5dp"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/iv_poster"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/holder"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_votes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:text="3,715"
+            android:textSize="38sp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Some Title"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <ImageButton
+            android:id="@+id/ib_vote"
+            android:layout_gravity="bottom|right"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/heart"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/cardview_light_background"
+    android:layout_height="130dp"
+    android:padding="5dp"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/iv_poster"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/holder"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Some Title"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

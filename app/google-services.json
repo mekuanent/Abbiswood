@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "866389612074",
+    "firebase_url": "https://project-5533130314257679666.firebaseio.com",
+    "project_id": "project-5533130314257679666",
+    "storage_bucket": "project-5533130314257679666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866389612074:android:255a7432e0e1ee8a",
+        "android_client_info": {
+          "package_name": "com.bluetea.abbiswood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866389612074-3dttqoj0cj53amdh3uqq4m83j23mh9h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaH_ie2B0FxFYTNo9wITW2BZTCljjwJZA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
